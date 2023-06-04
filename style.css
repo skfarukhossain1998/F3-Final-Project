@@ -1,0 +1,180 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  /*   position: relative; */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="date"] {
+    padding: 5px;
+    font-size: 14px;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+section {
+    background-color: #000;
+    padding: 500px;
+    border: 5px solid green;
+    text-align: start;
+    color: #fff;
+    max-width: 100%;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: 750px;
+    /* border: 3px solid #fff; */
+    /* padding: 3px;
+    background-color: yellow; */
+}
+
+/* #image{
+width: 700px;
+height: auto;
+} */
+
+section h1 {
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+ul h2{
+    font-size: 35px;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+#search-history{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: auto;
+    /* text-align: center; */
+    /* position: absolute; */
+}
+
+
+/* media queries section */
+
+
+/* Mobile Devices */
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    form {
+        margin-bottom: 10px;
+    }
+    label {
+        font-size: 12px;
+    }
+    input[type="date"] {
+        font-size: 12px;
+    }
+    button[type="submit"] {
+        font-size: 12px;
+    }
+    section {
+        padding: 10px;
+    }
+    ul, li{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
+
+
+/* Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+    form {
+        margin-bottom: 15px;
+    }
+    label {
+        font-size: 14px;
+    }
+    input[type="date"] {
+        font-size: 14px;
+    }
+    button[type="submit"] {
+        font-size: 14px;
+    }
+    section {
+        padding: 15px;
+    }
+}
+
+
+/* Laptops and Desktops */
+
+@media only screen and (min-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+    form {
+        margin-bottom: 20px;
+    }
+    label {
+        font-size: 16px;
+    }
+    input[type="date"] {
+        font-size: 16px;
+    }
+    button[type="submit"] {
+        font-size: 16px;
+    }
+    section {
+        padding: 20px;
+    }
+}
+
+
+/* TVs */
+
+@media only screen and (min-width: 1920px) {
+    body {
+        font-size: 20px;
+    }
+    form {
+        margin-bottom: 30px;
+    }
+    label {
+        font-size: 18px;
+    }
+    input[type="date"] {
+        font-size: 18px;
+    }
+    button[type="submit"] {
+        font-size: 18px;
+    }
+    section {
+        padding: 30px;
+    }
+}
